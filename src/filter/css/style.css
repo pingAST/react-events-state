@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+.App {
+    max-width: 900px;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+}
+
+/* Стили для Toolbar */
+.toolbar {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+.filter,
+.filter-selected {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    margin-right: 5px;
+    border: 1px solid #555;
+    background: none;
+    cursor: pointer;
+    transition: all 0.3s;
+    color: #555;
+    text-transform: uppercase;
+}
+
+.filter:hover,
+.filter-selected:hover {
+    background: #333;
+    color: #eee;
+    text-decoration: none;
+}
+
+.filter-selected {
+    color: white;
+    background: #555;
+}
+
+/* Стили для Portfolio */
+.portfolio {
+    margin: 1rem 0;
+    column-count: 3;
+    column-gap: 1rem;
+}
+
+.project {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+}
