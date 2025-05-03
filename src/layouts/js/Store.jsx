@@ -2,7 +2,7 @@ import React from 'react';
 import IconSwitch from './IconSwitch';
 import CardsView from './Card/CardsView';
 import ListView from './List/ListView';
-import { products } from './products';
+import products from '../products.json';
 
 class Store extends React.Component {
     constructor(props) {
